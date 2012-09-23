@@ -139,6 +139,8 @@ body {
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 a {
   color: #0088cc;
@@ -5825,4 +5827,7 @@ button.close {
     height: auto !important;
     overflow: visible !important;
   }
+}
+.sidebar-nav {
+    padding: 9px 0;
 }

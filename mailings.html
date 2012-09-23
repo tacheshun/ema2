@@ -39,7 +39,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Race Results <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="race_results.html">See past race results</a></li>
-                
+                  
                 </ul>
               </li>
               <li class="dropdown">
@@ -57,55 +57,40 @@
                   <li><a href="#">Add a new member</a></li>
                 </ul>
               </li>
-               <li class="dropdown">
+              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="news.html">See all news items</a></li>
                   <li><a href="add_news.html">Add a news item</a></li>
                 </ul>
               </li>
-              <li><a href="#">Mailings</a></li>
+              <li><a href="mailings.html">Mailings</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
+<div class="container">
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span9">
-          <div class="hero-unit">
-            <h1>Hello, Admin!</h1>
-            <p>Vestibulum in nunc felis. Vestibulum eu risus metus, vitae imperdiet sapien? In aliquam posuere bibendum. Phasellus iaculis, sem ut vulputate porta, arcu urna porta dui, non adipiscing justo augue in elit. Pellentesque ut augue sit amet dui vestibulum ultrices! Fusce sagittis aliquam neque, a congue tellus eleifend ac. Nullam a lobortis diam? Morbi fringilla, ipsum vitae tincidunt consequat; nibh erat posuere augue; rutrum fringilla ipsum neque auctor nisi.</p>
-            <p><a href="race_results.html" class="btn btn-primary btn-large">See race results &raquo;</a></p>
-          </div>
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>News item 1</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="news.html">More news &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>News item 2</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="news.html">More news &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>News item 3</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="news.html">More news &raquo;</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-        </div><!--/span-->
-      </div><!--/row-->
-
-      <hr>
-
-      <footer>
+<h1>Schedule mailing to members</h1>
+  <form>
+  <label>Subject</label>
+  <input type="text" placeholder="Add subject">
+  <span class="help-block">Add content in plain text</span>
+  <textarea rows="10" placeholder="Add content"></textarea>
+  <span class="help-block">Add an attachment</span>
+  <input type="file" placeholder="Add attachment">
+  <span class="help-block">Specify the date when the message should be sent</span>
+  <input type="text" placeholder="Add date"><br>
+  <button type="submit" class="btn btn-primary">Send mailing</button>
+  <button type="submit" class="btn">Preview mail</button>
+</form>
+  <br>
+  <footer>
         <p>&copy; Open University Running Club 2012</p>
-      </footer>
+    </footer>
+    </div> <!-- /container -->
 
-    </div><!--/.fluid-container-->
 
     <!-- the javascripts
     ================================================== -->
