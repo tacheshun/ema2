@@ -70,29 +70,103 @@
         </div>
       </div>
     </div>
-<div class="container">
+    <div class="container">
+    <h1>All members</h1>
 
-<h1>Schedule mailing to members</h1>
-  <form action="#" method="post">
-  <label>Subject</label>
-  <input type="text" placeholder="Add subject">
-  <span class="help-block">Add content in plain text</span>
-  <textarea rows="10" placeholder="Add content"></textarea>
-  <span class="help-block">Add an attachment</span>
-  <input type="file" placeholder="Add attachment">
-  <span class="help-block">Specify the date when the message should be sent</span>
-  <input type="text" placeholder="Add date"><br>
-  <button type="submit" class="btn btn-primary">Send mailing</button>
-  <button type="submit" class="btn">Preview mail</button>
-</form>
-  <br>
+<table class="table table-hover">
+    <caption>All Members</caption>
+      <thead>
+        <tr>
+          <th>Order</th>
+          <th>Name</th>
+          <th>Email Address</th>
+          <th>Date added</th>
+          <th>Avatar</th>
+          <th>Location</th>
+          <th>Modify Member</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Admin</td>
+          <td>admin@open.ac.uk</td>
+          <td>10/09/2011</td>
+          <td>avatar1.jpg</td>
+          <td>Milton Keynes, UK</td>
+          <td>
+            <div class="btn-group">
+          <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#">
+          Modify
+           <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit member</a></li>
+            <li><a href="#" onclick="confirm('Are you sure?')";>Delete member</a></li>
+          </ul>
+        </div>
+      </td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Marius</td>
+          <td>mc23345@my.open.ac.uk</td>
+          <td>11/09/2012</td>
+          <td>avatar_marius.jpg</td>
+          <td>Bucharest, Romania</td>
+          <td>
+            <div class="btn-group">
+          <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#">
+          Modify
+           <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit member</a></li>
+            <li><a href="#" onclick="confirm('Are you sure?')";>Delete member</a></li>
+          </ul>
+        </div>
+      </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Aaron Patterson</td>
+          <td>aaronp@my.open.ac.uk</td>
+          <td>15/09/2012</td>
+          <td>avatar_aaron.jpg</td>
+          <td>London, UK</td>
+          <td>
+            <div class="btn-group">
+          <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#">
+          Modify
+           <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Edit member</a></li>
+            <li><a href="#" onclick="confirm('Are you sure?')";>Delete member</a></li>
+          </ul>
+        </div>
+      </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+       <div class="pagination">
+  <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+      <br>
   <footer>
         <p>&copy; Open University Running Club 2012</p>
     </footer>
-    </div> <!-- /container -->
-
-
-    <!-- the javascripts
+  </div>
+      <!-- the javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>

@@ -70,27 +70,62 @@
         </div>
       </div>
     </div>
-<div class="container">
-
-<h1>Schedule mailing to members</h1>
-  <form action="#" method="post">
-  <label>Subject</label>
-  <input type="text" placeholder="Add subject">
-  <span class="help-block">Add content in plain text</span>
-  <textarea rows="10" placeholder="Add content"></textarea>
-  <span class="help-block">Add an attachment</span>
-  <input type="file" placeholder="Add attachment">
-  <span class="help-block">Specify the date when the message should be sent</span>
-  <input type="text" placeholder="Add date"><br>
-  <button type="submit" class="btn btn-primary">Send mailing</button>
-  <button type="submit" class="btn">Preview mail</button>
-</form>
-  <br>
-  <footer>
+    <div class="container">
+    <h1>All Events</h1>
+    <table class="table table-hover">
+  	<caption>All Events</caption>
+		  <thead>
+		    <tr>
+		      <th>Order</th>
+		      <th>Name</th>
+		      <th>Place</th>
+		      <th>Date</th>
+		      <th>Image</th>
+		      <th>Description</th>
+		      <th>Modify Result</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <td>1</td>
+		      <td>Event 1</td>
+		      <td>Milton Keynes</td>
+		      <td>10/10/2012</td>
+		      <td>image1.jpg</td>
+		      <td>Vestibulum in nunc felis. Vestibulum eu risus metus..</td>
+		      <td>
+		      	<div class="btn-group">
+  				<a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#">
+    			Modify
+   				 <span class="caret"></span>
+  				</a>
+	  			<ul class="dropdown-menu">
+	    			<li><a href="#">Edit event</a></li>
+	    			<li><a href="#" onclick="confirm('Are you sure?')";>Delete event</a></li>
+	  			</ul>
+				</div>
+			</td>
+		    </tr>
+		  </tbody>
+    </table>
+    <div class="pagination">
+  <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+      <br>
+	<footer>
         <p>&copy; Open University Running Club 2012</p>
     </footer>
     </div> <!-- /container -->
 
+
+    </div><!--/.fluid-container-->
 
     <!-- the javascripts
     ================================================== -->

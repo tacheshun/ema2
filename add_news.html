@@ -45,16 +45,16 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Race events<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">See all events</a></li>
-                  <li><a href="#">Schedule a new race event</a></li>
-                  <li><a href="#">Schedule other event</a></li>
+                  <li><a href="see_all_events.html">See all events</a></li>
+                  <li><a href="new_race.html">Schedule a new race event</a></li>
+                  <li><a href="new_other_event.html">Schedule other event</a></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">See all members</a></li>
-                  <li><a href="#">Add a new member</a></li>
+                  <li><a href="all_members.html">See all members</a></li>
+                  <li><a href="add_member.html">Add a new member</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -71,20 +71,22 @@
       </div>
     </div>
 <div class="container">
-<form>
+<form action="#" method="post" enctype="multipart/form-data">
   <legend>Add news item</legend>
   <label>Title</label>
   <input type="text" placeholder="Add title">
-  <span class="help-block">Content</span>
+  <label>Content</label>
   <textarea rows="10" placeholder="Add content"></textarea>
-  <span class="help-block">Add image</span>
+  <label>Add image</label>
   <input type="file" placeholder="Add image">
-  <span class="help-block">Date</span>
-  <input type="text" placeholder="Add date">
+  <br />
   <label class="checkbox">
-    <input type="checkbox">Publish on website?
+    <input type="checkbox">Publish later on website?
   </label>
+  <label>Spefify date to be published</label>
+  <input type="text" placeholder="Add date"><br>
   <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="clear" class="btn">Clear fields</button>
 </form>
 
       <br>
